@@ -12,7 +12,7 @@ def directors_totals(nds)
   counter1 = 0
   while counter1 < nds.length do
 	  counter2 = 0
-	  total = 0
+	  total[name] = 0
     while counter2 < directors_database[counter1][movies].length do
       total += directors_database[counter1][movies][counter2][3]
     end
